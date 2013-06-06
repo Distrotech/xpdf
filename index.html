@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Xpdf by Distrotech</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Xpdf</h1>
+          <h2></h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/Distrotech/xpdf/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/Distrotech/xpdf/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/Distrotech/xpdf" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a name="xpdf" class="anchor" href="#xpdf"><span class="octicon octicon-link"></span></a>Xpdf</h1>
+
+<p>version 3.03
+2011-aug-15</p>
+
+<p>The Xpdf software and documentation are
+copyright 1996-2011 Glyph &amp; Cog, LLC.</p>
+
+<p>Email: <a href="mailto:derekn@foolabs.com">derekn@foolabs.com</a>
+WWW: <a href="http://www.foolabs.com/xpdf/">http://www.foolabs.com/xpdf/</a></p>
+
+<p>The PDF data structures, operators, and specification are
+copyright 1985-2006 Adobe Systems Inc.</p>
+
+<h2>
+<a name="what-is-xpdf" class="anchor" href="#what-is-xpdf"><span class="octicon octicon-link"></span></a>What is Xpdf?</h2>
+
+<p>Xpdf is an open source viewer for Portable Document Format (PDF)
+files.  (These are also sometimes also called 'Acrobat' files, from
+the name of Adobe's PDF software.)  The Xpdf project also includes a
+PDF text extractor, PDF-to-PostScript converter, and various other
+utilities.</p>
+
+<p>Xpdf runs under the X Window System on UNIX, VMS, and OS/2.  The non-X
+components (pdftops, pdftotext, etc.) also run on Windows and Mac OSX
+systems and should run on pretty much any system with a decent C++
+compiler.  Xpdf will run on 32-bit and 64-bit machines.</p>
+
+<h2>
+<a name="license--distribution" class="anchor" href="#license--distribution"><span class="octicon octicon-link"></span></a>License &amp; Distribution</h2>
+
+<p>Xpdf is licensed under the GNU General Pulbic License (GPL), version 2
+or 3.  This means that you can distribute derivatives of Xpdf under
+any of the following:</p>
+
+<ul>
+<li>GPL v2 only</li>
+<li>GPL v3 only</li>
+<li>GPL v2 or v3</li>
+</ul><p>The Xpdf source package includes the text of both GPL versions:
+COPYING for GPL v2, COPYING3 for GPL v3.</p>
+
+<p>Please note that Xpdf is NOT licensed under "any later version" of the
+GPL, as I have no idea what those versions will look like.</p>
+
+<p>If you are redistributing unmodified copies of Xpdf (or any of the
+Xpdf tools) in binary form, you need to include all of the
+documentation: README, man pages (or help files), COPYING, and
+COPYING3.</p>
+
+<p>If you want to incorporate the Xpdf source code into another program
+(or create a modified version of Xpdf), and you are distributing that
+program, you have two options: release your program under the GPL (v2
+and/or v3), or purchase a commercial Xpdf source license.</p>
+
+<p>If you're interested in commercial licensing, please see the Glyph &amp;
+Cog web site:</p>
+
+<pre><code>http://www.glyphandcog.com/
+</code></pre>
+
+<h2>
+<a name="compatibility" class="anchor" href="#compatibility"><span class="octicon octicon-link"></span></a>Compatibility</h2>
+
+<p>Xpdf is developed and tested on Linux.</p>
+
+<p>In addition, it has been compiled by others on Solaris, AIX, HP-UX,
+Digital Unix, Irix, and numerous other Unix implementations, as well
+as VMS and OS/2.  It should work on pretty much any system which runs
+X11 and has Unix-like libraries.  You'll need ANSI C++ and C compilers
+to compile it.</p>
+
+<p>The non-X components of Xpdf (pdftops, pdftotext, pdfinfo, pdffonts,
+pdfdetach, pdftoppm, and pdfimages) can also be compiled on Windows
+and Mac OSX systems.  See the Xpdf web page for details.</p>
+
+<p>If you compile Xpdf for a system not listed on the web page, please
+let me know.  If you're willing to make your binary available by ftp
+or on the web, I'll be happy to add a link from the Xpdf web page.  I
+have decided not to host any binaries I didn't compile myself (for
+disk space and support reasons).</p>
+
+<p>If you can't get Xpdf to compile on your system, send me email and
+I'll try to help.</p>
+
+<p>Xpdf has been ported to the Acorn, Amiga, BeOS, and EPOC.  See the
+Xpdf web page for links.</p>
+
+<h2>
+<a name="getting-xpdf" class="anchor" href="#getting-xpdf"><span class="octicon octicon-link"></span></a>Getting Xpdf</h2>
+
+<p>The latest version is available from:</p>
+
+<p><a href="http://www.foolabs.com/xpdf/">http://www.foolabs.com/xpdf/</a></p>
+
+<p>or:</p>
+
+<p><a>ftp://ftp.foolabs.com/pub/xpdf/</a></p>
+
+<p>Source code and several precompiled executables are available.</p>
+
+<p>Announcements of new versions are posted to comp.text.pdf and emailed
+to a list of people.  If you'd like to receive email notification of
+new versions, just let me know.</p>
+
+<h2>
+<a name="running-xpdf" class="anchor" href="#running-xpdf"><span class="octicon octicon-link"></span></a>Running Xpdf</h2>
+
+<p>To run xpdf, simply type:</p>
+
+<p>xpdf file.pdf</p>
+
+<p>To generate a PostScript file, hit the "print" button in xpdf, or run
+pdftops:</p>
+
+<p>pdftops file.pdf</p>
+
+<p>To generate a plain text file, run pdftotext:</p>
+
+<p>pdftotext file.pdf</p>
+
+<p>There are five additional utilities (which are fully described in
+their man pages):</p>
+
+<p>pdfinfo -- dumps a PDF file's Info dictionary (plus some other
+             useful information)
+  pdffonts -- lists the fonts used in a PDF file along with various
+              information for each font
+  pdfdetach -- lists or extracts embedded files (attachments) from a
+               PDF file
+  pdftoppm -- converts a PDF file to a series of PPM/PGM/PBM-format
+              bitmaps
+  pdfimages -- extracts the images from a PDF file</p>
+
+<p>Command line options and many other details are described in the man
+pages (xpdf(1), etc.) and the VMS help files (xpdf.hlp, etc.).</p>
+
+<p>All of these utilities read an optional configuration file: see the
+xpdfrc(5) man page.</p>
+
+<h2>
+<a name="upgrading-from-xpdf-302-and-earlier" class="anchor" href="#upgrading-from-xpdf-302-and-earlier"><span class="octicon octicon-link"></span></a>Upgrading from Xpdf 3.02 (and earlier)</h2>
+
+<p>The font configuration system has been changed.  Previous versions
+used mostly separate commands to configure fonts for display and for
+PostScript output.  As of 3.03, configuration options that make sense
+for both display and PS output have been unified.</p>
+
+<p>The following xpdfrc commands have been removed:</p>
+
+<ul>
+<li>displayFontT1, displayFontTT: replaced with fontFile</li>
+<li>displayNamedCIDFontT1, displayNamedCIDFontTT: replaced with fontFile</li>
+<li>displayCIDFontT1, displayCIDFontTT: replaced with fontFileCC</li>
+<li>psFont: replaced with psResidentFont</li>
+<li>psNamedFont16: replaced with psResidentFont16</li>
+<li>psFont16: replaced with psResidentFontCC</li>
+</ul><p>See the xpdfrc(5) man page for more information on the new commands.</p>
+
+<p>Pdftops will now embed external 16-bit fonts (configured with the
+fontFileCC command) when the PDF file refers to a non-embedded font.
+It does not do any subsetting (yet), so the resulting PS files will be
+large.</p>
+
+<h2>
+<a name="compiling-xpdf" class="anchor" href="#compiling-xpdf"><span class="octicon octicon-link"></span></a>Compiling Xpdf</h2>
+
+<p>See the separate file, INSTALL.</p>
+
+<h2>
+<a name="bugs" class="anchor" href="#bugs"><span class="octicon octicon-link"></span></a>Bugs</h2>
+
+<p>If you find a bug in Xpdf, i.e., if it prints an error message,
+crashes, or incorrectly displays a document, and you don't see that
+bug listed here, please send me email, with a pointer (URL, ftp site,
+etc.) to the PDF file.</p>
+
+<h2>
+<a name="acknowledgments" class="anchor" href="#acknowledgments"><span class="octicon octicon-link"></span></a>Acknowledgments</h2>
+
+<p>Thanks to:</p>
+
+<ul>
+<li>Patrick Voigt for help with the remote server code.</li>
+<li>Patrick Moreau, Martin P.J. Zinser, and David Mathog for the VMS
+port.</li>
+<li>David Boldt and Rick Rodgers for sample man pages.</li>
+<li>Brendan Miller for the icon idea.</li>
+<li>Olly Betts for help testing pdftotext.</li>
+<li>Peter Ganten for the OS/2 port.</li>
+<li>Michael Richmond for the Win32 port of pdftops and pdftotext and the
+xpdf/cygwin/XFree86 build instructions.</li>
+<li>Frank M. Siegert for improvements in the PostScript code.</li>
+<li>Leo Smiers for the decryption patches.</li>
+<li>Rainer Menzner for creating t1lib, and for helping me adapt it to
+xpdf.</li>
+<li>Pine Tree Systems A/S for funding the OPI and EPS support in
+pdftops.</li>
+<li>Easy Software Products for funding several improvements to the
+PostScript output code.</li>
+<li>Tom Kacvinsky for help with FreeType and for being my interface to
+the FreeType team.</li>
+<li>Theppitak Karoonboonyanan for help with Thai support.</li>
+<li>Leonard Rosenthol for help and contributions on a bunch of things.</li>
+<li>Alexandros Diamantidis and Maria Adaloglou for help with Greek
+support.</li>
+<li>Lawrence Lai for help with the CJK Unicode maps.</li>
+</ul><p>Various people have contributed modifications made for use by the
+pdftex project:</p>
+
+<ul>
+<li>Han The Thanh</li>
+<li>Martin Schröder of ArtCom GmbH</li>
+</ul><h2>
+<a name="references" class="anchor" href="#references"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>Adobe Systems Inc., <em>PDF Reference, sixth edition: Adobe Portable
+Document Format version 1.7</em>.
+<a href="http://www.adobe.com/devnet/pdf/pdf_reference.html">http://www.adobe.com/devnet/pdf/pdf_reference.html</a>
+[The manual for PDF version 1.7.]</p>
+
+<p>Adobe Systems Inc., "Errata for the PDF Reference, sixth edition,
+version 1.7", October 16, 2006.
+<a href="http://www.adobe.com/devnet/pdf/pdf_reference.html">http://www.adobe.com/devnet/pdf/pdf_reference.html</a>
+[The errata for the PDF 1.7 spec.]</p>
+
+<p>Adobe Systems Inc., <em>PostScript Language Reference</em>, 3rd ed.
+Addison-Wesley, 1999, ISBN 0-201-37922-8.
+[The official PostScript manual.]</p>
+
+<p>Adobe Systems, Inc., <em>The Type 42 Font Format Specification</em>,
+Adobe Developer Support Technical Specification #5012.  1998.
+<a href="http://partners.adobe.com/asn/developer/pdfs/tn/5012.Type42_Spec.pdf">http://partners.adobe.com/asn/developer/pdfs/tn/5012.Type42_Spec.pdf</a>
+[Type 42 is the format used to embed TrueType fonts in PostScript
+files.]</p>
+
+<p>Adobe Systems, Inc., <em>Adobe CMap and CIDFont Files Specification</em>,
+Adobe Developer Support Technical Specification #5014.  1995.
+<a href="http://www.adobe.com/supportservice/devrelations/PDFS/TN/5014.CIDFont_Spec.pdf">http://www.adobe.com/supportservice/devrelations/PDFS/TN/5014.CIDFont_Spec.pdf</a>
+[CMap file format needed for Japanese and Chinese font support.]</p>
+
+<p>Adobe Systems, Inc., <em>Adobe-Japan1-4 Character Collection for
+CID-Keyed Fonts</em>, Adobe Developer Support Technical Note #5078.
+2000.
+<a href="http://partners.adobe.com/asn/developer/PDFS/TN/5078.CID_Glyph.pdf">http://partners.adobe.com/asn/developer/PDFS/TN/5078.CID_Glyph.pdf</a>
+[The Adobe Japanese character set.]</p>
+
+<p>Adobe Systems, Inc., <em>Adobe-GB1-4 Character Collection for
+CID-Keyed Fonts</em>, Adobe Developer Support Technical Note #5079.
+2000.
+<a href="http://partners.adobe.com/asn/developer/pdfs/tn/5079.Adobe-GB1-4.pdf">http://partners.adobe.com/asn/developer/pdfs/tn/5079.Adobe-GB1-4.pdf</a>
+[The Adobe Chinese GB (simplified) character set.]</p>
+
+<p>Adobe Systems, Inc., <em>Adobe-CNS1-3 Character Collection for
+CID-Keyed Fonts</em>, Adobe Developer Support Technical Note #5080.
+2000.
+<a href="http://partners.adobe.com/asn/developer/PDFS/TN/5080.CNS_CharColl.pdf">http://partners.adobe.com/asn/developer/PDFS/TN/5080.CNS_CharColl.pdf</a>
+[The Adobe Chinese CNS (traditional) character set.]</p>
+
+<p>Adobe Systems Inc., <em>Supporting the DCT Filters in PostScript Level
+2</em>, Adobe Developer Support Technical Note #5116.  1992.
+<a href="http://www.adobe.com/supportservice/devrelations/PDFS/TN/5116.PS2_DCT.PDF">http://www.adobe.com/supportservice/devrelations/PDFS/TN/5116.PS2_DCT.PDF</a>
+[Description of the DCTDecode filter parameters.]</p>
+
+<p>Adobe Systems Inc., <em>Open Prepress Interface (OPI) Specification -
+Version 2.0</em>, Adobe Developer Support Technical Note #5660.  2000.
+<a href="http://partners.adobe.com/asn/developer/PDFS/TN/5660.OPI_2.0.pdf">http://partners.adobe.com/asn/developer/PDFS/TN/5660.OPI_2.0.pdf</a></p>
+
+<p>Adobe Systems Inc., CMap files.
+<a>ftp://ftp.oreilly.com/pub/examples/nutshell/cjkv/adobe/</a>
+[The actual CMap files for the 16-bit CJK encodings.]</p>
+
+<p>Adobe Systems Inc., Unicode glyph lists.
+<a href="http://partners.adobe.com/asn/developer/type/unicodegn.html">http://partners.adobe.com/asn/developer/type/unicodegn.html</a>
+<a href="http://partners.adobe.com/asn/developer/type/glyphlist.txt">http://partners.adobe.com/asn/developer/type/glyphlist.txt</a>
+<a href="http://partners.adobe.com/asn/developer/type/corporateuse.txt">http://partners.adobe.com/asn/developer/type/corporateuse.txt</a>
+<a href="http://partners.adobe.com/asn/developer/type/zapfdingbats.txt">http://partners.adobe.com/asn/developer/type/zapfdingbats.txt</a>
+[Mappings between character names to Unicode.]</p>
+
+<p>Adobe Systems Inc., OpenType Specification v. 1.4.
+<a href="http://partners.adobe.com/public/developer/opentype/index_spec.html">http://partners.adobe.com/public/developer/opentype/index_spec.html</a>
+[The OpenType font format spec.]</p>
+
+<p>Aldus Corp., <em>OPI: Open Prepress Interface Specification 1.3</em>.  1993.
+<a href="http://partners.adobe.com/asn/developer/PDFS/TN/OPI_13.pdf">http://partners.adobe.com/asn/developer/PDFS/TN/OPI_13.pdf</a></p>
+
+<p>Anonymous, RC4 source code.
+<a>ftp://ftp.ox.ac.uk/pub/crypto/misc/rc4.tar.gz</a>
+<a>ftp://idea.sec.dsi.unimi.it/pub/crypt/code/rc4.tar.gz</a>
+[This is the algorithm used to encrypt PDF files.]</p>
+
+<p>T. Boutell, et al., "PNG (Portable Network Graphics) Specification,
+Version 1.0".  RFC 2083.
+[PDF uses the PNG filter algorithms.]</p>
+
+<p>CCITT, "Information Technology - Digital Compression and Coding of
+Continuous-tone Still Images - Requirements and Guidelines", CCITT
+Recommendation T.81.
+<a href="http://www.w3.org/Graphics/JPEG/">http://www.w3.org/Graphics/JPEG/</a>
+[The official JPEG spec.]</p>
+
+<p>A. Chernov, "Registration of a Cyrillic Character Set".  RFC 1489.
+[Documentation for the KOI8-R Cyrillic encoding.]</p>
+
+<p>Roman Czyborra, "The ISO 8859 Alphabet Soup".
+<a href="http://czyborra.com/charsets/iso8859.html">http://czyborra.com/charsets/iso8859.html</a>
+[Documentation on the various ISO 859 encodings.]</p>
+
+<p>L. Peter Deutsch, "ZLIB Compressed Data Format Specification version
+3.3".  RFC 1950.
+[Information on the general format used in FlateDecode streams.]</p>
+
+<p>L. Peter Deutsch, "DEFLATE Compressed Data Format Specification
+version 1.3".  RFC 1951.
+[The definition of the compression algorithm used in FlateDecode
+streams.]</p>
+
+<p>Morris Dworkin, "Recommendation for Block Cipher Modes of Operation",
+National Institute of Standards, NIST Special Publication 800-38A,
+2001.
+[The cipher block chaining (CBC) mode used with AES in PDF files.]</p>
+
+<p>Federal Information Processing Standards Publication 197 (FIPS PUBS
+197), "Advanced Encryption Standard (AES)", November 26, 2001.
+[AES encryption, used in PDF 1.6.]</p>
+
+<p>Jim Flowers, "X Logical Font Description Conventions", Version 1.5, X
+Consortium Standard, X Version 11, Release 6.1.
+<a>ftp://ftp.x.org/pub/R6.1/xc/doc/hardcopy/XLFD/xlfd.PS.Z</a>
+[The official specification of X font descriptors, including font
+transformation matrices.]</p>
+
+<p>Foley, van Dam, Feiner, and Hughes, <em>Computer Graphics: Principles and
+Practice</em>, 2nd ed.  Addison-Wesley, 1990, ISBN 0-201-12110-7.
+[Colorspace conversion functions, Bezier spline math.]</p>
+
+<p>Robert L. Hummel, <em>Programmer's Technical Reference: Data and Fax
+Communications</em>.  Ziff-Davis Press, 1993, ISBN 1-56276-077-7.
+[CCITT Group 3 and 4 fax decoding.]</p>
+
+<p>ISO/IEC, <em>Information technology -- Lossy/lossless coding of bi-level
+images</em>.  ISO/IEC 14492, First edition (2001-12-15).
+<a href="http://webstore.ansi.org/">http://webstore.ansi.org/</a>
+[The official JBIG2 standard.  The final draft of this spec is
+available from <a href="http://www.jpeg.org/jbighomepage.html.">http://www.jpeg.org/jbighomepage.html.</a>]</p>
+
+<p>ISO/IEC, <em>Information technology -- JPEG 2000 image coding system --
+Part 1: Core coding system</em>.  ISO/IEC 15444-1, First edition
+(2000-12-15).
+<a href="http://webstore.ansi.org/">http://webstore.ansi.org/</a>
+[The official JPEG 2000 standard.  The final committee draft of this
+spec is available from <a href="http://www.jpeg.org/JPEG2000.html">http://www.jpeg.org/JPEG2000.html</a>, but there
+were changes made to the bitstream format between that draft and the
+published spec.]</p>
+
+<p>ITU, "Standardization of Group 3 facsimile terminals for document
+transmission", ITU-T Recommendation T.4, 1999.
+ITU, "Facsimile coding schemes and coding control functions for Group 4
+facsimile apparatus", ITU-T Recommendation T.6, 1993.
+<a href="http://www.itu.int/">http://www.itu.int/</a>
+[The official Group 3 and 4 fax standards - used by the CCITTFaxDecode
+stream, as well as the JBIG2Decode stream.]</p>
+
+<p>B. Kaliski, "PKCS #5: Password-Based Cryptography Specification,
+Version 2.0".  RFC 2898.
+[Defines the padding scheme used with AES encryption in PDF files.]</p>
+
+<p>Christoph Loeffler, Adriaan Ligtenberg, George S. Moschytz, "Practical
+Fast 1-D DCT Algorithms with 11 Multiplications".  IEEE Intl. Conf. on
+Acoustics, Speech &amp; Signal Processing, 1989, 988-991.
+[The fast IDCT algorithm used in the DCTDecode filter.]</p>
+
+<p>Microsoft, <em>TrueType 1.0 Font Files</em>, rev. 1.66.  1995.
+<a href="http://www.microsoft.com/typography/tt/tt.htm">http://www.microsoft.com/typography/tt/tt.htm</a>
+[The TrueType font spec (in MS Word format, naturally).]</p>
+
+<p>V. Ostromoukhov, R.D. Hersch, "Stochastic Clustered-Dot Dithering",
+Conf. Color Imaging: Device-Independent Color, Color Hardcopy, and
+Graphic Arts IV, 1999, SPIE Vol. 3648, 496-505.
+<a href="http://diwww.epfl.ch/w3lsp/publications/colour/scd.html">http://diwww.epfl.ch/w3lsp/publications/colour/scd.html</a>
+[The stochastic dithering algorithm used in Xpdf.]</p>
+
+<p>P. Peterlin, "ISO 8859-2 (Latin 2) Resources".
+<a href="http://sizif.mf.uni-lj.si/linux/cee/iso8859-2.html">http://sizif.mf.uni-lj.si/linux/cee/iso8859-2.html</a>
+[This is a web page with all sorts of useful Latin-2 character set and
+font information.]</p>
+
+<p>Charles Poynton, "Color FAQ".
+<a href="http://www.inforamp.net/%7Epoynton/ColorFAQ.html">http://www.inforamp.net/~poynton/ColorFAQ.html</a>
+[The mapping from the CIE 1931 (XYZ) color space to RGB.]</p>
+
+<p>R. Rivest, "The MD5 Message-Digest Algorithm".  RFC 1321.
+[MD5 is used in PDF document encryption.]</p>
+
+<p>Thai Industrial Standard, "Standard for Thai Character Codes for
+Computers", TIS-620-2533 (1990).
+<a href="http://www.nectec.or.th/it-standards/std620/std620.htm">http://www.nectec.or.th/it-standards/std620/std620.htm</a>
+[The TIS-620 Thai encoding.]</p>
+
+<p>Unicode Consortium, "Unicode Home Page".
+<a href="http://www.unicode.org/">http://www.unicode.org/</a>
+[Online copy of the Unicode spec.]</p>
+
+<p>W3C Recommendation, "PNG (Portable Network Graphics) Specification
+Version 1.0".
+<a href="http://www.w3.org/Graphics/PNG/">http://www.w3.org/Graphics/PNG/</a>
+[Defines the PNG image predictor.]</p>
+
+<p>Gregory K. Wallace, "The JPEG Still Picture Compression Standard".
+<a>ftp://ftp.uu.net/graphics/jpeg/wallace.ps.gz</a>
+[Good description of the JPEG standard.  Also published in CACM, April
+1991, and submitted to IEEE Transactions on Consumer Electronics.]</p>
+
+<p>F. Yergeau, "UTF-8, a transformation format of ISO 10646".  RFC 2279.
+[A commonly used Unicode encoding.]</p>
+        </section>
+
+        <footer>
+          Xpdf is maintained by <a href="https://github.com/Distrotech">Distrotech</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
